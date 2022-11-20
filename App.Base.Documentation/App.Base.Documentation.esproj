@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.45-alpha">
+  <PropertyGroup>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="21.Environments\12.Visual Studio Code\" />
+    <Folder Include="51.Client\01.Resources\" />
+    <Folder Include="51.Client\11.Context\" />
+    <Folder Include="51.Client\21.Conventions\" />
+    <Folder Include="41.Service\01.Resources\" />
+    <Folder Include="01.Objectives\" />
+    <Folder Include="41.Service\11.Background\" />
+    <Folder Include="11.Resources\" />
+  </ItemGroup>
+
+</Project>
