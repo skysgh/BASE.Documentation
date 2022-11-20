@@ -3,9 +3,15 @@
 BASE is the basis for developing modular applications that are
 modular & maintainable.
 
+## Setup ##
+
+Start with [Setting up your Development Environment](./21.Environments/11.Visual%20Studio/Configuration.md).
+
 ## Design Guidelines
 
-See [Design Guidelines](./Resources/Readme.Development.Guidelines.md)
+Sit back and relax and don't even think about committing code until you've read 
+[Design Guidelines](./Resources/Readme.Development.Guidelines.md)
+
 
 ## Assemblies ##
 
