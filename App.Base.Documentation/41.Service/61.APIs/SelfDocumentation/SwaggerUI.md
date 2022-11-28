@@ -58,6 +58,7 @@ public static void Configure(SwaggerUIOptions c)
 {
     ...
     c.SwaggerEndpoint($"{AppAPIConstants.SwaggerJSonRoot}/{AppAPIConstants.BaseRESTAPIsID}/swagger.json", "Base Rest APIs");
+    c.SwaggerEndpoint($"{AppAPIConstants.SwaggerJSonRoot}/{AppAPIConstants.BaseRESTAPIsID}/swagger.json", "Base Rest APIs");
     ...
 }
 
