@@ -21,6 +21,20 @@ and relies on an implementation of `IHttpControllerTypeResolver` to find control
 
 Which explains, btw, how OData maps them too. I think.
 
+## ACtion Selectors ##
+
+As per 
+
+https://learn.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/routing-and-action-selection
+
+by default it's `ApiControllerActionSelector`, an impementation of `IHttpActionSelector.SelectAction`, that does it.
+
+
+## Url Regenerators/Redirectors ##
+
+Not sure that `LinkGenerator` can be used in middleware.
+
+But see here any way: https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-7.0
 
 ## Who creates Controllers? ##
 
